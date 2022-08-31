@@ -5,11 +5,11 @@ using namespace std;
 int main()
 {	//상수:변하면 안되는 값이라 선언과 동시에 대입해줘야함.
 	// 변수처럼 값을 수정할 수 없음
-	//const float PI = 3.14159265; //자료형이 추가됨, 지정된 block에서만 사용 가능
-	//int r = 3;
-	//float s = r * r * PI;
+	const float PI = 3.14159265; //자료형이 추가됨, 지정된 block에서만 사용 가능
+	int r = 3;
+	float s = r * r * PI;
 
-	//cout << "원의 넓이: " << s << endl;
+	cout << "원의 넓이: " << s << endl;
 
 	//데이터형 변환
 	/*
