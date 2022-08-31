@@ -127,7 +127,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="array_string.cpp" />
     <ClCompile Include="boolean.cpp" />
+    <ClCompile Include="const.cpp" />
     <ClCompile Include="hello.cpp" />
     <ClCompile Include="test.cpp" />
     <ClCompile Include="variable.cpp" />

@@ -2,7 +2,7 @@
 
 using namespace std;
 //#define PI 3.14  <- C언어의 방식(모든 block에서 접근가능)
-int main()
+int main_const()
 {	//상수:변하면 안되는 값이라 선언과 동시에 대입해줘야함.
 	// 변수처럼 값을 수정할 수 없음
 	const float PI = 3.14159265; //자료형이 추가됨, 지정된 block에서만 사용 가능

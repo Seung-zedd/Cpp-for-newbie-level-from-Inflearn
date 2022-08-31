@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main()
+int main_bool()
 {
 	bool a = 0;
 	bool b = 1;
