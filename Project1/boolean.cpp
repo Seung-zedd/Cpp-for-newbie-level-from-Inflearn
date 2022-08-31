@@ -8,7 +8,7 @@ int main_bool()
 	bool b = 1;
 	bool c = 10;
 
-	cout << a <<" " << b <<" " << c << endl;
+	cout << a <<" " << b <<" " << c << endl; //0 1 1
 
 	return 0;
 }
