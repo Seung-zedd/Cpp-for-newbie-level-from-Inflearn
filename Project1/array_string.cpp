@@ -2,8 +2,9 @@
 
 using namespace std;
 
-int main()
+int main_arr()
 {	//typeName arrayName[arraySize]; 로 선언가능(↔C에서는 포인터 연산자가 있어서 char name[255]와 같이 char형만 가능함을 유의)
+	//배열은 선언과 동시에 대입을 해줘야함(초기화)
 	short month[4] = { 1,2,3 };
 	
 	
