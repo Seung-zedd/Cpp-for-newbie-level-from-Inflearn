@@ -129,9 +129,12 @@
   <ItemGroup>
     <ClCompile Include="array_string.cpp" />
     <ClCompile Include="boolean.cpp" />
+    <ClCompile Include="cin_string.cpp" />
     <ClCompile Include="const.cpp" />
     <ClCompile Include="hello.cpp" />
-    <ClCompile Include="test.cpp" />
+    <ClCompile Include="structure.cpp" />
+    <ClCompile Include="test.c" />
+    <ClCompile Include="union_.enum.cpp" />
     <ClCompile Include="variable.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

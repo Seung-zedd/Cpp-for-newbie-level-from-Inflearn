@@ -18,7 +18,7 @@
     <ClCompile Include="hello.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test.cpp">
+    <ClCompile Include="test.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="variable.cpp">
@@ -31,6 +31,15 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="array_string.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cin_string.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="structure.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="union_.enum.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

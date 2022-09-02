@@ -2,7 +2,7 @@
 #include <cstring> //strlen() 함수를 사용하기 위해서
 using namespace std;
 
-int main()
+int main_string()
 {
 	const int Size = 15;
 	char name1[Size];
