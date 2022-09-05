@@ -11,7 +11,7 @@ Time sum(Time*, Time*);//구조체를 더하는 함수,
 					//구조체의 '값'에 접근하면 구조체가 클수록 접근시간이 길어짐
 const int minsPerHr = 60;//분과 시간을 계산하기 위해 상수 설정
 void showTime(Time);
-int main()
+int main_fn_struct()
 {	//함수는 원본이 아닌 복사본을 대상으로 작업한다.
 	Time day1 = { 5,45 };
 	Time day2 = { 4,55 }; //배열로 멤버변수를 초기화
