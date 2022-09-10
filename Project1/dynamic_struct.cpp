@@ -8,7 +8,7 @@ struct MyStruct//구조체는 함수와 마찬가지로 전처리기에서 미리 정의해야함.
     int age;
 };
 
-int main() {
+int main_dy_struct() {
 
     MyStruct* temp = new MyStruct;//struct형의 메모리를 찾아줘!
                                   //메모리 대출할께요

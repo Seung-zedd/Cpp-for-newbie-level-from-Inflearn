@@ -18,9 +18,6 @@
     <ClCompile Include="hello.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="variable.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -39,7 +36,28 @@
     <ClCompile Include="structure.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="union_.enum.cpp">
+    <ClCompile Include="union_enum.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="new_delete.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="dynamic_arr.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="dynamic_struct.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="fn_struct.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="fn_pointer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="inline(fn)_default(param).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="fn_arr.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

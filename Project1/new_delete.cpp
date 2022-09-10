@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main()
+int main_new()
 {	//new 연산자
 	/*
 	어떤 데이터형을 원하는지 new 연산자에게 알려주면,

@@ -101,7 +101,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
-      <SDLCheck>true</SDLCheck>
+      <SDLCheck>false</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
@@ -131,10 +131,16 @@
     <ClCompile Include="boolean.cpp" />
     <ClCompile Include="cin_string.cpp" />
     <ClCompile Include="const.cpp" />
+    <ClCompile Include="dynamic_arr.cpp" />
+    <ClCompile Include="dynamic_struct.cpp" />
+    <ClCompile Include="fn_arr.cpp" />
+    <ClCompile Include="fn_pointer.cpp" />
+    <ClCompile Include="fn_struct.cpp" />
     <ClCompile Include="hello.cpp" />
+    <ClCompile Include="inline(fn)_default(param).cpp" />
+    <ClCompile Include="new_delete.cpp" />
     <ClCompile Include="structure.cpp" />
-    <ClCompile Include="test.c" />
-    <ClCompile Include="union_.enum.cpp" />
+    <ClCompile Include="union_enum.cpp" />
     <ClCompile Include="variable.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
