@@ -54,10 +54,13 @@
     <ClCompile Include="fn_pointer.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="inline(fn)_default(param).cpp">
+    <ClCompile Include="inline_fn.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="fn_arr.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="default_param.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

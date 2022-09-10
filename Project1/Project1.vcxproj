@@ -131,13 +131,14 @@
     <ClCompile Include="boolean.cpp" />
     <ClCompile Include="cin_string.cpp" />
     <ClCompile Include="const.cpp" />
+    <ClCompile Include="default_param.cpp" />
     <ClCompile Include="dynamic_arr.cpp" />
     <ClCompile Include="dynamic_struct.cpp" />
     <ClCompile Include="fn_arr.cpp" />
     <ClCompile Include="fn_pointer.cpp" />
     <ClCompile Include="fn_struct.cpp" />
     <ClCompile Include="hello.cpp" />
-    <ClCompile Include="inline(fn)_default(param).cpp" />
+    <ClCompile Include="inline_fn.cpp" />
     <ClCompile Include="new_delete.cpp" />
     <ClCompile Include="structure.cpp" />
     <ClCompile Include="union_enum.cpp" />
