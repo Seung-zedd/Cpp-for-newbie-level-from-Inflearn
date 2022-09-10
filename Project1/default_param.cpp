@@ -1,19 +1,20 @@
 #include <iostream>
 
 using namespace std;
-//default parameter:argument¿¡ ÀÎ¼ö°¡ ¾øÀ¸¸é default°ªÀÌ ÇÔ¼ö·Î º¹»çµÇ¼­ ½ÇÇà
+//default parameter:argumentì— ì¸ìˆ˜ê°€ ì—†ìœ¼ë©´ defaultê°’ì´ í•¨ìˆ˜ë¡œ ë³µì‚¬ë˜ì„œ ì‹¤í–‰
 const int SIZE = 8;
-int sumArr(int*, int n = 3);//¿øÇü¿¡¼­ default paramÀ» ÃÊ±âÈ­ÇØ¾ßÇÔ
+int sumArr(int*, int n = 3);//ì›í˜•ì—ì„œ default paramì„ ì´ˆê¸°í™”í•´ì•¼í•¨
+                            //defaultëŠ” ë°˜ë“œì‹œ ê°€ì¥ ì˜¤ë¥¸ìª½ì— ì„ ì–¸, ì˜¤ë¥¸ìª½ì—ì„œë¶€í„°
 
 int main() {
     int arr[SIZE] = { 1, 2, 4, 8, 16, 32, 64 };
     int sum = sumArr(arr);
 
-    cout << "ÇÔ¼öÀÇ ÃÑ ÇÕÀº " << sum << "ÀÔ´Ï´Ù." << endl;
+    cout << "í•¨ìˆ˜ì˜ ì´ í•©ì€ " << sum << "ì…ë‹ˆë‹¤." << endl;
     return 0;
 }
 
-int sumArr(int* arr, int n) { //Á¤ÀÇºÎºĞÀº º¯¼ö ¼±¾ğ¸¸
+int sumArr(int* arr, int n) { //ì •ì˜ë¶€ë¶„ì€ ë³€ìˆ˜ ì„ ì–¸ë§Œ
     int total = 0;
 
     for (int i = 0; i < n; i++)
