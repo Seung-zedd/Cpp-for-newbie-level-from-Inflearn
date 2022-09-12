@@ -130,19 +130,28 @@
     <ClCompile Include="array_string.cpp" />
     <ClCompile Include="boolean.cpp" />
     <ClCompile Include="cin_string.cpp" />
+    <ClCompile Include="class.cpp" />
     <ClCompile Include="const.cpp" />
     <ClCompile Include="default_param.cpp" />
+    <ClCompile Include="des_compile.cpp" />
     <ClCompile Include="dynamic_arr.cpp" />
     <ClCompile Include="dynamic_struct.cpp" />
     <ClCompile Include="fn_arr.cpp" />
     <ClCompile Include="fn_pointer.cpp" />
     <ClCompile Include="fn_struct.cpp" />
+    <ClCompile Include="fun.cpp" />
     <ClCompile Include="hello.cpp" />
     <ClCompile Include="inline_fn.cpp" />
     <ClCompile Include="new_delete.cpp" />
+    <ClCompile Include="ref.cpp" />
     <ClCompile Include="structure.cpp" />
+    <ClCompile Include="template.cpp" />
     <ClCompile Include="union_enum.cpp" />
     <ClCompile Include="variable.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="new.h" />
+    <ClInclude Include="struct.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -7,7 +7,7 @@ void swapC(int, int);
 
 //swap함수:값에 의한 복사, 참조에 의한 복사, 포인터에 의한 복사
 
-int main()
+int main_ref()
 {
 	int wallet1 = 100, wallet2 = 200;
 	

@@ -4,7 +4,7 @@
 //반드시 단 한 번만 포함시켜야 한다.
 //if 포함시키고 싶으면, #ifndef~#endif 사이에 #define STRUCT로
 //기호상수를 정의해주어야 
-int main()
+int main_des()
 {
 	MyStruct pandaCoding = {
 		"panda",

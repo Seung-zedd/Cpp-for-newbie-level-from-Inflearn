@@ -6,7 +6,7 @@ const int SIZE = 8;
 int sumArr(int*, int n = 3);//원형에서 default param을 초기화해야함
                             //default는 반드시 가장 오른쪽에 선언, 오른쪽에서부터
 
-int main() {
+int main_default() {
     int arr[SIZE] = { 1, 2, 4, 8, 16, 32, 64 };
     int sum = sumArr(arr);
 
