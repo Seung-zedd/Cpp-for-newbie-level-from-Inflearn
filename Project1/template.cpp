@@ -2,21 +2,21 @@
 
 using namespace std;
 
-//class È¤Àº typeName
+//class í˜¹ì€ typeName
 template <class Any>
 Any sum(Any, Any);
 
 template <class Any>
 Any sum(int, Any);
 int main_temp()
-{	//ÇÔ¼ö ÅÛÇÃ¸´
-	//±¸Ã¼ÀûÀÎ µ¥ÀÌÅÍÇüÀ» Æ÷°ıÇÒ ¼ö ÀÖ´Â ÀÏ¹İÇüÀ¸·Î ÇÔ¼ö¸¦ Á¤ÀÇ
+{	//í•¨ìˆ˜ í…œí”Œë¦¿
+	//êµ¬ì²´ì ì¸ ë°ì´í„°í˜•ì„ í¬ê´„í•  ìˆ˜ ìˆëŠ” ì¼ë°˜í˜•ìœ¼ë¡œ í•¨ìˆ˜ë¥¼ ì •ì˜
 	int a = 3, b = 4;
 
 	float c = 3.14, d = 1.592;
-	/*cout << sum(a, b) << endl;*///ÅÛÇÃ¸´ µÑ´Ù intÇüÀ¸·Î ÀÎ½ÄÇØ¼­ ¿À¹ö·Îµù ½ÇÆĞ(¿À¹ö·Îµù ¾ÈµÇ´Â case2¿¡ ÇØ´ç)
-	cout << sum(c, d) << endl; //floatÇüÀ» ¹İÈ¯
-	cout << sum(a, c) << endl;//intÇü a¿Í floatÇü c¸¦ ´õÇß´Âµ¥ ¹İÈ¯ÇüÀÌ anyÀÌ¹Ç·Î float¸¦ ¹İÈ¯ÇÑ´Ù
+	/*cout << sum(a, b) << endl;*///í…œí”Œë¦¿ ë‘˜ë‹¤ Any->intí˜•ìœ¼ë¡œ ì¸ì‹í•´ì„œ ì˜¤ë²„ë¡œë”© ì‹¤íŒ¨(ì˜¤ë²„ë¡œë”© ì•ˆë˜ëŠ” case2ì— í•´ë‹¹)
+	cout << sum(c, d) << endl; //floatí˜•ì„ ë°˜í™˜
+	cout << sum(a, c) << endl;//intí˜• aì™€ floatí˜• cë¥¼ ë”í–ˆëŠ”ë° ë°˜í™˜í˜•ì´ anyì´ë¯€ë¡œ floatë¥¼ ë°˜í™˜í•œë‹¤
 	
 	return 0;
 }
